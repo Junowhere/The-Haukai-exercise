@@ -1,5 +1,5 @@
 h2, p{
-  color: #968066
+  color: #76634d
 }
 
 h4{
@@ -54,7 +54,7 @@ pre{
 }
 /* active class to highlight current page */
 .topnav a.active {
-  background-color: #968066;
+  background-color: #76634d;
   color: white;
 }
 /* hide the link that should open and close top nav on small screen */
