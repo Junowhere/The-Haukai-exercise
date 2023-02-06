@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<head>
 <html lang="en">
 <meta charset="UTF-8">
 <title>The Haukai Restaurant</title>
@@ -7,8 +8,8 @@
 <!-- icon library to show a hamburger menu on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="style.css">
-<style>
-</style>
+
+<!-- Hamburger menu JS code -->
 <script>function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -17,8 +18,19 @@
     x.className = "topnav";
   }
 }</script>
-<body>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XHBVVR22Y6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XHBVVR22Y6');
+</script>
+</head>
+
+
+<body>
 <!-- Nav bar -->
 <div class="topnav" id="myTopnav">
 <a href="index.html" class="active">The Haukai</a>
