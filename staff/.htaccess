@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName  "Staff Only Access"
+AuthUserFile  "/Users/juliedufour/Desktop/Web dev diploma/Trimester 2/Web development/VSCode/Julie Dufour BIT607_AS2/.htpasswd"
+Require valid-user
